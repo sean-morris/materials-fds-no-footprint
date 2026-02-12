@@ -4,13 +4,14 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python # A Jupyter kernel for Python
-  - otter-grader-base
   - pandas
   - matplotlib
-  - scipy
+  - datascience==0.18.1
+  - otter-grader-base
+  - numpy==2.2.6
+  - scipy==1.14.1
   - xeus-r # A Jupyter kernel for R
   - xeus-cpp # A Jupyter kernel for C++
   - pip: # List pure Python packages from PyPi here
     - ipyleaflet
-    - datascience
 
