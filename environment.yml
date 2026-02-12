@@ -7,9 +7,10 @@ dependencies:
   - otter-grader-base
   - pandas
   - matplotlib
+  - scipy
   - xeus-r # A Jupyter kernel for R
   - xeus-cpp # A Jupyter kernel for C++
   - pip: # List pure Python packages from PyPi here
     - ipyleaflet
     - datascience
-    - scipy
+
