@@ -1,0 +1,13 @@
+name: materials-fds
+channels:
+  - emscripten-forge
+  - conda-forge
+dependencies:
+  - xeus-python # A Jupyter kernel for Python
+  - otter-grader
+  - pandas
+  - matplotlib
+  - xeus-r # A Jupyter kernel for R
+  - xeus-cpp # A Jupyter kernel for C++
+  - pip: # List pure Python packages from PyPi here
+    - ipyleaflet
