@@ -12,3 +12,4 @@ dependencies:
   - pip: # List pure Python packages from PyPi here
     - ipyleaflet
     - datascience
+    - scipy
