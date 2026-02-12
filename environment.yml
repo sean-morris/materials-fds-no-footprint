@@ -11,3 +11,4 @@ dependencies:
   - xeus-cpp # A Jupyter kernel for C++
   - pip: # List pure Python packages from PyPi here
     - ipyleaflet
+    - datascience
